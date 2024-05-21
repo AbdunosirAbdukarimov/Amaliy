@@ -1,0 +1,5 @@
+export {default as Regbutton} from "./Buttons/Reg_button/Regbutton"
+export {default as Navbar} from "./Nav/Navbar"
+export {default as Footer} from "./Footer/Footer"
+export {default as Slider} from "./Swipers/1/Slider"
+export {default as Reg} from "./reg/reg"

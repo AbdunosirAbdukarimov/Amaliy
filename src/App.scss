@@ -1,0 +1,892 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+}
+
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header_text {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    h3 {
+      font-size: 24px;
+      font-family: "Jost", sans-serif;
+      color: #141414;
+    }
+    h1 {
+      font-size: 50px;
+      color: #141414;
+      margin: 5px 0 20px 0;
+      span {
+        color: #0d42aa;
+      }
+    }
+    p {
+      font-size: 16px;
+      color: #141414;
+      margin-bottom: 60px;
+    }
+  }
+}
+main {
+  margin-top: 160px;
+  .main_header {
+    .main_header_text {
+      h1 {
+        width: 30%;
+        font-size: 34px;
+        color: #141414;
+      }
+    }
+    .main_header_slider {
+      width: 100%;
+    }
+  }
+  .main_13 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 160px;
+    h3 {
+      margin: 10px 0 20px 0;
+      font-size: 18px;
+      color: #141414;
+    }
+    h1 {
+      font-size: 34px;
+      color: #141414;
+    }
+    p {
+      font-size: 16px;
+      color: #141414;
+      margin-bottom: 60px;
+    }
+  }
+  .main_why {
+    margin-top: 160px;
+    .main_why_text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+      h1 {
+        font-size: 34px;
+        color: #141414;
+      }
+      h2 {
+        font-size: 16px;
+        color: #141414;
+      }
+      h2::after {
+        content: "Ro’yxatdan o’tish ->";
+      }
+    }
+    .main_why_boxes {
+      display: flex;
+      justify-content: space-between;
+      .main_why_box {
+        border: 1px solid #f5f5f5;
+        border-radius: 4px;
+        width: 380px;
+        .main_why_box_top {
+          display: flex;
+          gap: 10px;
+          padding: 20px;
+          border-bottom: 1px solid #f5f5f5;
+          .top_img {
+            width: 42px;
+          }
+          h4 {
+            font-size: 18px;
+            color: #141414;
+          }
+        }
+        .main_why_box_botton {
+          padding: 20px;
+          p {
+            font-size: 16px;
+            color: #141414;
+          }
+        }
+      }
+    }
+  }
+  .main_presentation {
+    margin-top: 160px;
+    .main_presentation_text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+      h1 {
+        font-size: 34px;
+        color: #141414;
+      }
+      h2 {
+        font-size: 16px;
+        color: #141414;
+      }
+      h2::after {
+        content: "Ro’yxatdan o’tish ->";
+      }
+    }
+    .main_presentation_main {
+      display: flex;
+      justify-content: space-between;
+      .main_presentation_main_text {
+        .main_presentation_main_text_content {
+          width: 380px;
+          display: flex;
+          align-items: flex-start;
+          box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+          padding: 20px;
+          border-radius: 4px;
+          font-size: 16px;
+          color: #141414;
+          margin-bottom: 20px;
+          h4 {
+            margin-left: 10px;
+          }
+          .swg {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  .main_certificatelashning {
+    margin-top: 160px;
+    .main_certificatelashning_main {
+      display: flex;
+      .main_certificatelashning_main_accordion {
+        width: 790px;
+      }
+      .main_certificatelashning_main_img {
+        margin-left: 30px;
+        width: 380px;
+        .main_img {
+          border-radius: 4px;
+          box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+          margin-bottom: 20px;
+          .main_img_top {
+            padding: 20px;
+            border-bottom: 1px solid #f5f5f5;
+            h4 {
+              font-size: 18px;
+              color: #141414;
+            }
+          }
+          .main_img_botton {
+            padding: 20px;
+            p {
+              font-size: 16px;
+              color: #141414;
+            }
+            h2 {
+              font-size: 16px;
+              color: #141414;
+              font-weight: 500;
+              margin-top: 30px;
+            }
+            h2::after {
+              content: "PDF-ni yuklab oling ->";
+            }
+          }
+          .main_img_botton_img {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            p {
+              font-size: 16px;
+              color: #141414;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main_end {
+    h1 {
+      margin: 160px 0 40px 0;
+      font-size: 34px;
+      color: #141414;
+    }
+    .main_end_images {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .svg {
+        background-blend-mode: luminosity;
+      }
+      .icon {
+        color: #0d42aa;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 579px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .header_text {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding: 30px 0;
+      h3 {
+        font-size: 24px;
+        font-family: "Jost", sans-serif;
+        color: #141414;
+      }
+      h1 {
+        font-size: 50px;
+        color: #141414;
+      }
+      p {
+        font-size: 16px;
+        color: #141414;
+        margin-bottom: 60px;
+      }
+    }
+    .header_img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: -1;
+      img {
+        width: 340px;
+      }
+    }
+  }
+  main {
+    margin-top: 80px;
+    .main_header {
+      .main_header_text {
+        h1 {
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .main_header_slider {
+        width: 100%;
+      }
+    }
+    .main_13 {
+      display: block;
+      text-align: center;
+      margin-top: 80px;
+      .main_13_img {
+        margin-top: 30px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .main_why {
+      margin-top: 80px;
+      .main_why_text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        h1 {
+          font-size: 34px;
+          color: #141414;
+        }
+        h2 {
+          font-size: 16px;
+          color: #141414;
+        }
+        h2::after {
+          content: "Ro’yxatdan o’tish ->";
+        }
+      }
+      .main_why_boxes {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .main_why_box {
+          border: 1px solid #f5f5f5;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .main_presentation {
+      margin-top: 80px;
+      .main_presentation_text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        h1 {
+          font-size: 34px;
+          color: #141414;
+        }
+        h2 {
+          font-size: 16px;
+          color: #141414;
+        }
+        h2::after {
+          content: "Ro’yxatdan o’tish ->";
+        }
+      }
+      .main_presentation_main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .main_presentation_main_text {
+          .main_presentation_main_text_content {
+            width: 380px;
+            display: flex;
+            align-items: flex-start;
+            box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+            padding: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #141414;
+            margin-bottom: 20px;
+            h4 {
+              margin-left: 10px;
+            }
+            .swg {
+              font-size: 20px;
+            }
+          }
+        }
+        .main_presentation_img{
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .main_certificatelashning {
+      margin-top: 80px;
+      .main_certificatelashning_main {
+        display: block;
+        .main_certificatelashning_main_accordion {
+          width: 100%;
+        }
+        .main_certificatelashning_main_img {
+          margin-top: 30px;
+          margin-left: 0px;
+          width: 100%;
+          .main_img {
+            border-radius: 4px;
+            box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+            margin-bottom: 20px;
+            .main_img_top {
+              padding: 20px;
+              border-bottom: 1px solid #f5f5f5;
+              h4 {
+                font-size: 18px;
+                color: #141414;
+              }
+            }
+            .main_img_botton {
+              padding: 20px;
+              p {
+                font-size: 16px;
+                color: #141414;
+              }
+              h2 {
+                font-size: 16px;
+                color: #141414;
+                font-weight: 500;
+                margin-top: 30px;
+              }
+              h2::after {
+                content: "PDF-ni yuklab oling ->";
+              }
+            }
+            .main_img_botton_img {
+              padding: 20px;
+              display: flex;
+              flex-direction: column;
+              p {
+                font-size: 16px;
+                color: #141414;
+              }
+            }
+          }
+        }
+      }
+    }
+    .main_end {
+      h1 {
+        margin: 80px 0 20px 0;
+        font-size: 34px;
+        color: #141414;
+      }
+      .main_end_images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        .svg{
+          margin: 15px;
+        }
+        .icon {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 579px) and (max-width: 1030px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .header_text {
+      width: 100%;
+      height: auto;
+      text-align: center;
+      padding: 30px 0;
+      h3 {
+        font-size: 24px;
+        font-family: "Jost", sans-serif;
+        color: #141414;
+      }
+      h1 {
+        font-size: 50px;
+        color: #141414;
+      }
+      p {
+        font-size: 16px;
+        color: #141414;
+        margin-bottom: 60px;
+      }
+    }
+    .header_img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: -1;
+      img {
+        width: 250px;
+      }
+    }
+  }
+  main {
+    margin-top: 80px;
+    .main_header {
+      .main_header_text {
+        h1 {
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .main_header_slider {
+        width: 100%;
+      }
+    }
+    .main_13 {
+      display: block;
+      text-align: center;
+      margin-top: 80px;
+      .main_13_img {
+        margin-top: 30px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .main_why {
+      margin-top: 80px;
+      .main_why_text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        h1 {
+          font-size: 34px;
+          color: #141414;
+        }
+        h2 {
+          font-size: 16px;
+          color: #141414;
+        }
+        h2::after {
+          content: "Ro’yxatdan o’tish ->";
+        }
+      }
+      .main_why_boxes {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .main_why_box {
+          border: 1px solid #f5f5f5;
+          margin-bottom: 30px;
+        }
+      }
+    }
+    .main_presentation {
+      margin-top: 80px;
+      .main_presentation_text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        h1 {
+          font-size: 34px;
+          color: #141414;
+        }
+        h2 {
+          font-size: 16px;
+          color: #141414;
+        }
+        h2::after {
+          content: "Ro’yxatdan o’tish ->";
+        }
+      }
+      .main_presentation_main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .main_presentation_main_text {
+          .main_presentation_main_text_content {
+            width: 380px;
+            display: flex;
+            align-items: flex-start;
+            box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+            padding: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #141414;
+            margin-bottom: 20px;
+            h4 {
+              margin-left: 10px;
+            }
+            .swg {
+              font-size: 20px;
+            }
+          }
+        }
+        .main_presentation_img{
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .main_certificatelashning {
+      margin-top: 80px;
+      .main_certificatelashning_main {
+        display: block;
+        .main_certificatelashning_main_accordion {
+          width: 100%;
+        }
+        .main_certificatelashning_main_img {
+          margin-top: 30px;
+          margin-left: 0px;
+          width: 100%;
+          .main_img {
+            border-radius: 4px;
+            box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+            margin-bottom: 20px;
+            .main_img_top {
+              padding: 20px;
+              border-bottom: 1px solid #f5f5f5;
+              h4 {
+                font-size: 18px;
+                color: #141414;
+              }
+            }
+            .main_img_botton {
+              padding: 20px;
+              p {
+                font-size: 16px;
+                color: #141414;
+              }
+              h2 {
+                font-size: 16px;
+                color: #141414;
+                font-weight: 500;
+                margin-top: 30px;
+              }
+              h2::after {
+                content: "PDF-ni yuklab oling ->";
+              }
+            }
+            .main_img_botton_img {
+              padding: 20px;
+              display: flex;
+              flex-direction: column;
+              p {
+                font-size: 16px;
+                color: #141414;
+              }
+            }
+          }
+        }
+      }
+    }
+    .main_end {
+      h1 {
+        margin: 80px 0 20px 0;
+        font-size: 34px;
+        color: #141414;
+      }
+      .main_end_images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        .svg{
+          margin: 15px;
+        }
+        .icon {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1030px) and (max-width: 1250px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    .header_text {
+      width: 50%;
+      background-color: rgba(255, 255, 255, 0.5);
+      h3 {
+        font-size: 24px;
+        font-family: "Jost", sans-serif;
+        color: #141414;
+      }
+      h1 {
+        font-size: 50px;
+        color: #141414;
+        margin: 5px 0 20px 0;
+        span {
+          color: #0d42aa;
+        }
+      }
+      p {
+        font-size: 16px;
+        color: #141414;
+        margin-bottom: 60px;
+      }
+    }
+  }
+  main {
+    margin-top: 160px;
+    .main_header {
+      .main_header_text {
+        h1 {
+          width: 30%;
+          font-size: 34px;
+          color: #141414;
+        }
+      }
+      .main_header_slider {
+        width: 100%;
+      }
+    }
+    .main_13 {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 160px;
+      h3 {
+        margin: 10px 0 20px 0;
+        font-size: 18px;
+        color: #141414;
+      }
+      h1 {
+        font-size: 34px;
+        color: #141414;
+      }
+      p {
+        font-size: 16px;
+        color: #141414;
+        margin-bottom: 60px;
+      }
+    }
+    .main_why {
+      margin-top: 160px;
+      .main_why_text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        h1 {
+          font-size: 34px;
+          color: #141414;
+        }
+        h2 {
+          font-size: 16px;
+          color: #141414;
+        }
+        h2::after {
+          content: "Ro’yxatdan o’tish ->";
+        }
+      }
+      .main_why_boxes {
+        display: flex;
+        justify-content: space-between;
+        .main_why_box {
+          border: 1px solid #f5f5f5;
+          border-radius: 4px;
+          width: 380px;
+          .main_why_box_top {
+            display: flex;
+            gap: 10px;
+            padding: 20px;
+            border-bottom: 1px solid #f5f5f5;
+            .top_img {
+              width: 42px;
+            }
+            h4 {
+              font-size: 18px;
+              color: #141414;
+            }
+          }
+          .main_why_box_botton {
+            padding: 20px;
+            p {
+              font-size: 16px;
+              color: #141414;
+            }
+          }
+        }
+      }
+    }
+    .main_presentation {
+      margin-top: 160px;
+      .main_presentation_text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        h1 {
+          font-size: 34px;
+          color: #141414;
+        }
+        h2 {
+          font-size: 16px;
+          color: #141414;
+        }
+        h2::after {
+          content: "Ro’yxatdan o’tish ->";
+        }
+      }
+      .main_presentation_main {
+        display: flex;
+        justify-content: space-between;
+        .main_presentation_main_text {
+          .main_presentation_main_text_content {
+            width: 380px;
+            display: flex;
+            align-items: flex-start;
+            box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+            padding: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #141414;
+            margin-bottom: 20px;
+            h4 {
+              margin-left: 10px;
+            }
+            .swg {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+    .main_certificatelashning {
+      margin-top: 160px;
+      .main_certificatelashning_main {
+        display: flex;
+        .main_certificatelashning_main_accordion {
+          width: 790px;
+        }
+        .main_certificatelashning_main_img {
+          margin-left: 30px;
+          width: 380px;
+          .main_img {
+            border-radius: 4px;
+            box-shadow: 0px 0px 15px 0px rgba(34, 60, 80, 0.2);
+            margin-bottom: 20px;
+            .main_img_top {
+              padding: 20px;
+              border-bottom: 1px solid #f5f5f5;
+              h4 {
+                font-size: 18px;
+                color: #141414;
+              }
+            }
+            .main_img_botton {
+              padding: 20px;
+              p {
+                font-size: 16px;
+                color: #141414;
+              }
+              h2 {
+                font-size: 16px;
+                color: #141414;
+                font-weight: 500;
+                margin-top: 30px;
+              }
+              h2::after {
+                content: "PDF-ni yuklab oling ->";
+              }
+            }
+            .main_img_botton_img {
+              padding: 20px;
+              display: flex;
+              flex-direction: column;
+              p {
+                font-size: 16px;
+                color: #141414;
+              }
+            }
+          }
+        }
+      }
+    }
+    .main_end {
+      h1 {
+        margin: 160px 0 40px 0;
+        font-size: 34px;
+        color: #141414;
+      }
+      .main_end_images {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .svg {
+          background-blend-mode: luminosity;
+        }
+        .icon {
+          color: #0d42aa;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

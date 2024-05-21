@@ -1,0 +1,170 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10.5%;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #f5f5f5;
+  box-shadow: 0px 0px 12px -5px rgba(34, 60, 80, 0.2);
+  position: relative;
+  ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 18px;
+    color: #141414;
+    li {
+      cursor: pointer;
+    }
+    li.active {
+      color: #0d42aa;
+    }
+  }
+
+  div {
+    text-align: end;
+    h3 {
+      margin-bottom: 0px;
+      font-size: 20px;
+      color: #141414;
+    }
+    span {
+      font-size: 16px;
+      color: #0d42aa;
+      margin-right: 0;
+      cursor: pointer;
+    }
+  }
+  .bars {
+    display: none;
+  }
+  .bars_back {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 745px) {
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    ul {
+      display: none;
+    }
+    div {
+      display: none;
+    }
+    .bars {
+      display: flex;
+    }
+    .bars_back {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.338);
+      position: fixed;
+      top: 0;
+      right: -100%;
+      transition: all .3s ease-in-out;
+      .bars_panel {
+        display: block;
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        background-color: white;
+        ul {
+          display: block;
+          list-style: none;
+          font-size: 18px;
+          color: #141414;
+          font-weight: 600;
+          margin: 60px 0 30px 0;
+          li {
+            cursor: pointer;
+            margin: 10px 0;
+          }
+          li.active {
+            color: #0d42aa;
+          }
+        }
+        .exit {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          color: #0d42aa;
+          font-size: 25px;
+        }
+      }
+    }
+    .bars_back.show {
+      right: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 745px) and (max-width: 1200px) {
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    ul {
+      display: none;
+    }
+    div {
+      display: none;
+    }
+    .bars {
+      display: flex;
+    }
+    .bars_back {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.338);
+      position: fixed;
+      top: 0;
+      right: -100%;
+      transition: all .3s ease-in-out;
+      .bars_panel {
+        display: block;
+        width: 55%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+        background-color: white;
+        ul {
+          display: block;
+          list-style: none;
+          font-size: 18px;
+          color: #141414;
+          font-weight: 600;
+          margin: 60px 0 30px 0;
+          li {
+            cursor: pointer;
+            margin: 10px 0;
+          }
+          li.active {
+            color: #0d42aa;
+          }
+        }
+        .exit {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          color: #0d42aa;
+          font-size: 25px;
+        }
+      }
+    }
+    .bars_back.show {
+      right: 0;
+    }
+  }
+}
